@@ -23,6 +23,9 @@ class AppRoutes {
 
   static const String initialRoute = '/initialRoute';
 
+  static const String fourScreen = '/four_screen';
+
+
   static Map<String, WidgetBuilder> routes = {
     oneScreen: (context) => OneScreen(),
     twoScreen: (context) => TwoScreen(),
@@ -31,5 +34,6 @@ class AppRoutes {
     loadingScreen: (context) => LoadingScreen(),
     appNavigationScreen: (context) => AppNavigationScreen(),
     initialRoute: (context) => OneScreen()
+
   };
 }
